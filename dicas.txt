@@ -1,0 +1,13 @@
+
+na pagina que ficará o projeto react
+
+com node instalado faremos no terminal:
+npm create vite@latest
+
+escolher react e javascript
+
+dar um cd na nova pasta criada
+
+npm install será rodado em alguma pasta que tenha o package-json
+
+npm run dev para abrir a pagina no navegador
