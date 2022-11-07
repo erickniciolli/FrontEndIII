@@ -1,0 +1,19 @@
+.sexta-aula-item-component{
+    
+    .categories{
+        display: flex;
+        gap: 10px;
+    }
+
+    .price{
+        text-align: right;
+        font-size: 45px;
+        color:orange;
+    }
+
+    .price2{
+        text-align: right;
+        font-size: 30px;
+        color:orange;
+    }
+}

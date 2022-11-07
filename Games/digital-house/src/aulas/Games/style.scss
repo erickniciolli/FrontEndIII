@@ -1,0 +1,79 @@
+.games-component {
+
+    *{
+        color:white;
+    }
+
+    .main-title {
+        color:white;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 75px;
+        padding-bottom: 30px;
+    }
+
+    .arrays {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        
+
+        li {
+
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            background-color: #303030;
+            padding: 12px;
+            border-radius: 12px;
+
+
+            img {
+
+                width: 400px;
+                border-radius: 12px;
+
+            }
+        }
+
+    }
+
+    .arrays2 {
+        display:flex;
+        flex-direction: row;
+        gap: 12px;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        flex-wrap: wrap;
+        
+        
+
+        li {
+
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            background-color: #303030;
+            padding: 18px;
+            border-radius: 12px;
+            
+
+
+            img {
+
+                width: 400px;
+                border-radius: 12px;
+                padding: 18px;
+
+            }
+        }
+
+    }
+
+}
