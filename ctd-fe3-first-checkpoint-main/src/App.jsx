@@ -38,6 +38,7 @@ function App() {
     }
 
     document.getElementById('nomeCor').value='';
+    setNomeCor('')
 
     
 }
@@ -66,7 +67,7 @@ function App() {
 
      {
          formularioErro ? (
-           <span className="span">O seu formulário contem erros</span>
+           <span className="span">O seu formulário contém erros!!!</span>
          ) : null
       }
 
