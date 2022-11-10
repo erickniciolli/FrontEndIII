@@ -1,3 +1,20 @@
 .card {
-    
+    color:white;
+    gap: 21px;
+    width: calc(50% - 21px - 20px);
+    height: 120px;
+    padding-left: 20px;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom: 21px;
+    text-align: left;
+    border-radius: 12px;
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
 }

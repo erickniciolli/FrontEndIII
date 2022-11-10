@@ -1,0 +1,60 @@
+
+
+.App {
+    background-color: black;
+    color:white;
+    height:100%;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;
+
+    .span {
+        color:red;
+    }
+
+    .correto {
+        color:white;
+        margin: 50px;
+        border-color: black;
+    }
+
+
+    .form-error {
+        color:red;
+        margin: 50px;
+        border-color: red;
+    }
+
+    input {
+        margin-left: 12px;
+    }
+
+    .cores {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-bottom: 21px;
+        background-color: black;
+
+    }
+
+    .main-title {
+        font-size: 30px;
+        padding: 36px;
+    }
+
+    .botao {
+        margin: 20px;
+        width: 210px;
+        height: 30px;
+        background-color: cadetblue;
+    }
+
+    #nomeCor {
+        margin-right: 30px;
+    }
+
+    .coresFavoritas {
+        font-size: 21px;
+    }
+}

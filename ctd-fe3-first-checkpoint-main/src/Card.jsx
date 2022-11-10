@@ -3,8 +3,8 @@ import './styleCard.scss'
 
 export function Card (props) {
   return (
-    <div className='card'>
-      <h1>{props.corData.nome}</h1>
+    <div style = {{background: props.corData.cor}} className='card'>
+      <h2>{props.corData.nome}</h2>
       <h1>{props.corData.cor}</h1>
 
     </div>
